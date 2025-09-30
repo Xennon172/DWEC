@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 HTML</title>
+</head>
+
+<body>
+
+    <header>
+        <h4>navegación</h4>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Portada</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="usuarios.html">Usuarios</a></li>
+                    <li><a href="opinion.html">Opinión</a></li>
+                    <li><a href="sobreMi.html">Sobre Mí</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h1>Registro</h1>
+        <form>
+            <Fieldset>
+                <legend>Informcación Personal</legend>
+                <div>
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Evaristo" />
+                </div>
+
+                <div>
+                    <label for="apellidos1"> Primer apellido:</label>
+                    <input type="text" id="apellidos 1" placeholder="Mateo" />
+                </div>
+
+                <div>
+                    <label for="apellido2"> Segundo apellido:</label>
+                    <input type="text" id="apellidos 2" placeholder="Poveda" />
+                </div>
+
+                <div>
+                    <label for="contraseña1"> Contraseña:</label>
+                    <input type="password" id="contraseña" placeholder="********" />
+                </div>
+
+                <div>
+                    <label for="contraseña2"> Repite contraseña:</label>
+                    <input type="password" id="contraseña" placeholder="********" />
+                </div>
+
+                <div>
+                    <label for="telefono"> Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="660065942" />
+                </div>
+
+                <div>
+                    <label for="correo"> Correo electrónico:</label>
+                    <input type="email" id="correo" placeholder="evaristo@gmail.com" />
+                </div>
+
+                <div>
+                    <label for="genero"> Género:</label>
+                    <input type="radio" name="Genero" id="hombre" value="hombre" />
+                    <label for="hombre">Hombre</label>
+
+                    <input type="radio" name="Genero" id="mujer" value="mujer" />
+                    <label for="mujer">Mujer</label>
+                </div>
+
+            </Fieldset>
+
+            <input type="submit" value="Enviar" /><br>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Práctica 1 HTML. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="private.html">Política de privacidad</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
