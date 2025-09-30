@@ -27,55 +27,55 @@
     <main>
         <h1>Registro</h1>
         <form>
-            <Fieldset>
-                <legend>Informcación Personal</legend>
+            <fieldset>
+                <legend>Información Personal</legend>
                 <div>
                     <label for="nombre"> Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Evaristo" />
+                    <input type="text" id="nombre" name="nombre" placeholder="Evaristo">
                 </div>
 
                 <div>
-                    <label for="apellidos1"> Primer apellido:</label>
-                    <input type="text" id="apellidos 1" placeholder="Mateo" />
+                    <label for="apellido1"> Primer apellido:</label>
+                    <input type="text" id="apellido1" name="apellido1" placeholder="Mateo">
                 </div>
 
                 <div>
                     <label for="apellido2"> Segundo apellido:</label>
-                    <input type="text" id="apellidos 2" placeholder="Poveda" />
+                    <input type="text" id="apellido2" name="apellido2" placeholder="Poveda">
                 </div>
 
                 <div>
-                    <label for="contraseña1"> Contraseña:</label>
-                    <input type="password" id="contraseña" placeholder="********" />
+                    <label for="contrasena1"> Contraseña:</label>
+                    <input type="password" id="contrasena1" name="contrasena1" placeholder="********">
                 </div>
 
                 <div>
-                    <label for="contraseña2"> Repite contraseña:</label>
-                    <input type="password" id="contraseña" placeholder="********" />
+                    <label for="contrasena2"> Repite contraseña:</label>
+                    <input type="password" id="contrasena2" name="contrasena2" placeholder="********">
                 </div>
 
                 <div>
                     <label for="telefono"> Teléfono:</label>
-                    <input type="tel" id="telefono" placeholder="660065942" />
+                    <input type="tel" id="telefono" name="telefono" placeholder="660065942">
                 </div>
 
                 <div>
                     <label for="correo"> Correo electrónico:</label>
-                    <input type="email" id="correo" placeholder="evaristo@gmail.com" />
+                    <input type="email" id="correo" name="correo" placeholder="evaristo@gmail.com">
                 </div>
 
                 <div>
-                    <label for="genero"> Género:</label>
-                    <input type="radio" name="Genero" id="hombre" value="hombre" />
+                    <p>Género:</p>
+                    <input type="radio" name="genero" id="hombre" value="hombre">
                     <label for="hombre">Hombre</label>
 
-                    <input type="radio" name="Genero" id="mujer" value="mujer" />
+                    <input type="radio" name="genero" id="mujer" value="mujer">
                     <label for="mujer">Mujer</label>
                 </div>
 
-            </Fieldset>
+            </fieldset>
 
-            <input type="submit" value="Enviar" /><br>
+            <button type="submit">Enviar</button>
         </form>
     </main>
 
